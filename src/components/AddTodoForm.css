@@ -1,7 +1,9 @@
 form {
+  width: 50%;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  margin-left: 25%;
 }
 
 input[type="text"] {
@@ -16,14 +18,12 @@ button {
   padding: 12px 20px;
   cursor: pointer;
   background-color: #ffffff;
-  color: black;
   font-weight: bold;
   border: 5px solid #a06cd5;
-  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: #e2cfea;
 }
